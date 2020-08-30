@@ -17,6 +17,7 @@ public class Control {
 
 	public void setTv(TV tv) {
 		this.tv = tv;
+		this.tv.control=this;
 	}
 	
 	public void turnOff() {
